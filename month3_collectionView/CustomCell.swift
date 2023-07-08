@@ -15,7 +15,7 @@ class CustomCell: UICollectionViewCell {
     
     @IBOutlet weak var moviePrice: UILabel!
     
-    // метод жизненного цикла чейки
+    // метод жизненного цикла ячейки
     override func awakeFromNib() {
         super.awakeFromNib()
         movieImage.contentMode = .scaleAspectFill
